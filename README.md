@@ -24,37 +24,38 @@ A modern full-stack team task management application built with React, Tailwind 
 
 ## Demo Accounts
 
-| Email | Password | Role |
-|---|---|---|
-| admin@taskflow.com | admin123 | Admin |
+| Email              | Password  | Role   |
+| ------------------ | --------- | ------ |
+| admin@taskflow.com | admin123  | Admin  |
 | sarah@taskflow.com | member123 | Member |
-| mike@taskflow.com | member123 | Member |
-| emma@taskflow.com | member123 | Member |
+| mike@taskflow.com  | member123 | Member |
+| emma@taskflow.com  | member123 | Member |
 
 ## Project Structure
 
 ```
 src/
-  main.jsx           # App entry point with routing
-  index.css          # Tailwind + custom theme
+  main.jsx              # App entry point with routing
+  index.css             # Tailwind + custom theme
   lib/
-    supabase.js      # Supabase client
+    supabase.js         # Supabase client
   contexts/
-    AuthContext.jsx   # Auth state, signup/signin/signout
+    AuthContext.jsx      # Auth state, signup/signin/signout
   components/
-    Sidebar.jsx       # Navigation sidebar layout
-    ProtectedRoute.jsx # Route guard
+    Sidebar.jsx          # Navigation sidebar layout
+    ProtectedRoute.jsx   # Route guard
   pages/
-    Login.jsx         # Login page
-    Signup.jsx        # Signup page
-    Dashboard.jsx     # Dashboard with charts
-    Projects.jsx      # Project CRUD
-    Tasks.jsx         # Task CRUD with filters
-    Team.jsx          # Team members list
-    Settings.jsx      # Profile settings
+    Login.jsx            # Login page
+    Signup.jsx           # Signup page
+    Dashboard.jsx        # Dashboard with charts
+    Projects.jsx         # Project CRUD
+    Tasks.jsx            # Task CRUD with filters
+    Team.jsx             # Team members list
+    Settings.jsx         # Profile settings
 supabase/
   functions/
-    seed-data/        # Edge function to seed demo data
+    seed-data/           # Edge function to seed demo data
+  migrations/            # Database migration files
 ```
 
 ## Getting Started

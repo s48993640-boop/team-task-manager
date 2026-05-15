@@ -1,6 +1,7 @@
 {
   "name": "taskflow",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Team Task Manager - A modern full-stack task management application",
   "private": true,
   "type": "module",
   "scripts": {
